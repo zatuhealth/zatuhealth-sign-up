@@ -1,0 +1,1 @@
+GRANT UPDATE (first_name, last_name, gender, date_of_birth, marital_status, nationality, country, state_province, blood_type, height_cm, weight_kg) ON public.profiles TO authenticated;

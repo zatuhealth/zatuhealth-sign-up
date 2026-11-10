@@ -1,0 +1,1 @@
+ALTER TABLE public.dependents ADD COLUMN first_name text, ADD COLUMN last_name text, ADD COLUMN blood_type text, ADD COLUMN height_cm numeric, ADD COLUMN weight_kg numeric;

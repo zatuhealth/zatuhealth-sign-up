@@ -1,0 +1,1 @@
+REVOKE EXECUTE ON FUNCTION public.handle_zatuhealth_signup() FROM PUBLIC, anon, authenticated;

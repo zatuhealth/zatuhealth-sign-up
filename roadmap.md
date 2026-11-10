@@ -1,0 +1,28 @@
+# Roadmap
+
+- [x] Rebuild registration with saved details, country and blood type.
+- [x] Implement mobile/password account calls and six-digit SMS verification, with resend and error states.
+- [x] Implement mobile-only sign-in without email or Google options.
+- [x] Collect height and weight after registration, save and calculate BMI.
+- [x] Verify form validation, password visibility, navigation and mobile layout; six tests passed.
+- [ ] Verify a real sign-up with a code received on a team phone at /test/register — needs a person to enter the texted code.
+- [ ] Secure mobile password recovery — blocked by SMS setup and confirmation of hosted password-change settings; unavailable message shown instead of simulated recovery.
+- [x] Family vaccination dashboard (dependents, Immunity/Travel/Pregnancy/High Risk/Pet tabs, vaccine info, taken/date/note records) per uploaded UI flow.
+- [ ] Verify signed-in vaccination flow end-to-end — blocked: no accounts exist yet because SMS sign-up is not enabled.
+- [x] Appointments (self-booking + staff queue), invoices with SMS payment links, public pay page.
+- [x] Digital vaccination card + printable certificate with QR verification.
+- [ ] Online Mobile Money/card checkout — needs a payment provider account.
+- [ ] Bulk SMS campaigns — planned.
+- [x] Build edit profile with names, gender, birth date, marital status, nationality, country, province/district, blood type, height, weight and BMI; link from the finished profile screen.
+- [ ] Verify edit-profile save and read-back with a real signed-in account — blocked: no auth users exist; twelve related tests pass and public profile/sign-in navigation is verified.
+- [x] AI vaccination card photo scan → reviewable records.
+- [x] Photo uploads for family member and pet profiles.
+- [x] Admin editor for vaccine schedule and guide text (clinic-approved content).
+- [ ] Grant the first clinic admin role — waiting on an account to exist (SMS sign-up).
+- [x] Wire EgoSMS OTP sign-up (at /test/register while public site is closed).
+- [x] Create first admin account with admin access (test account zatu).
+- [x] Finished profile summary screen linked from edit form.
+- [x] Overdue vaccine reminders send real SMS via EgoSMS (daily job, max one text per family per week).
+- [x] Patient document vault: private uploads, per-clinic time-limited sharing with one-tap revoke, activity log.
+- [ ] MTN Mobile Money checkout from the payment page — parked until tomorrow; needs Primary key + Secret key from the MTN sandbox dashboard, then the pay page can prompt the patient's phone and mark the invoice paid on MTN's confirmation.
+- [ ] Clinic Admin portal — clinic staff assignments, appointment queue, clinic-specific document viewing, invoice customization.
